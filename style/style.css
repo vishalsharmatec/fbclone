@@ -1,0 +1,95 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.container {
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 72px 120px 112px 120px;
+    /* width: 100%; */
+
+}
+
+/* left section */
+.container .left h2 {
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 30px;
+    width: 80%;
+
+}
+
+.container .left {
+    /* padding-right: 50px; */
+    width: 60%;
+    justify-content: left;
+}
+
+.container .left img {
+    height: 106px;
+    position: relative;
+    left: -30px;
+    bottom: -17px;
+    /* justify-content: right; */
+}
+
+/* right section */
+
+.container .right {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    box-shadow: 6px 6px 20px 3px gray;
+    padding: 20px;
+    margin-right: 100px;
+}
+
+.container .right .pad {
+    padding: 10px;
+    margin: 8px;
+    width: 100%;
+
+}
+
+.container .right .pad a {
+    display: block;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.container .right .corner {
+    border-radius: 8px;
+}
+
+.container .right .inp {
+    border: 1px solid rgb(185, 185, 185);
+}
+
+.container .right .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .right .login .lgn {
+    border: none;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+
+.container .right .login .new_acnt {
+    border: none;
+    background-color: rgb(19, 155, 2);
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    width: 70%;
+}
